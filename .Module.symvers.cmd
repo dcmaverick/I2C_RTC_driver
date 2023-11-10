@@ -1,0 +1,1 @@
+cmd_/home/firm/workspace/I2C_RTC_driver/Module.symvers :=  sed 's/ko$$/o/'  /home/firm/workspace/I2C_RTC_driver/modules.order | scripts/mod/modpost -m -a    -o /home/firm/workspace/I2C_RTC_driver/Module.symvers -e -i Module.symvers -T - 
